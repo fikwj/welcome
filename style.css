@@ -1,7 +1,7 @@
-body {
+body{
 margin: 0
 }
-.sidebar {
+.sidebar{
 position: fixed;
 width: 250 px;
 top: 0;
