@@ -1,5 +1,9 @@
 body{
-  margin: 300px;
+  margin: 10px;
+  width: 80%;
+  float: left;
+  position: relative;
+  left:10%
 }
 .sidebar{
 position: fixed;
