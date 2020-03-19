@@ -10,16 +10,16 @@ position: fixed;
 width: 10%;
 top: 0;
 left: 0;
-bottom: 0;
-background: #111  
+bottom: 0; 
 }
 
 .sidebar a{
 display: block;
 padding: 10px 20px;
-color:#fff  
+color:#111  
 }
 
 .content{
   width: 70%
+ 
 }
