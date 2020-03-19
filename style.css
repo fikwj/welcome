@@ -2,8 +2,8 @@
  url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
 
 body{
-  margin: 10px;
-  width: 80%;
+  margin: 65px;
+  width: 85%;
   float: left;
   position: relative;
   left:10%
@@ -11,7 +11,7 @@ body{
 
 .sidebar{
 position: fixed;
-width: 10%;
+width: 15%;
 top: 0;
 left: 0;
 bottom: 0; 
