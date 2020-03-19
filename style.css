@@ -35,11 +35,11 @@ font-family: 'Rubik'
  font-family: 'Rubik' 
 }
 
-.dot{
- height: 25px;
-  width: 25px;
-  background-color: #bbb;
+.circle{
+ height: 80px;
+  width: 80px;
+  background-color: #07CAF3;
   border-radius: 50%;
-  display: inline-block;
+  
 }
 
