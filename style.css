@@ -31,12 +31,12 @@ font-family: sans-serif;
 }
 
 .content{
+ float: left;
   width: 70%
-  float: left;
-}
+ }
 
 .content{
- font-family: 'Rubik' 
+ font-family: 'Rubik'
 }
 
 .circle{
