@@ -25,7 +25,8 @@ display: block;
 padding: 10px 20px;
 color:#111  
 text-decoration: none;
-font-family: 'Rubik'
+text-decoration: solid; 
+font-family: sans-serif;
   
 }
 
@@ -47,3 +48,14 @@ font-family: 'Rubik'
   
 }
 
+.circle.one{
+ background-color: rgb(63,94,251);
+}
+
+.circle.two{
+background-color: rgb(70,12,201)
+}
+
+.circle.three{
+background-color: rgb(9,40,231)
+}
