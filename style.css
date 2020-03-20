@@ -32,7 +32,7 @@ font-family: sans-serif;
 
 .content{
   width: 70%
-  position: fixed;
+  float: left;
 }
 
 .content{
