@@ -42,6 +42,7 @@ font-family: sans-serif;
 .circle{
  height: 80px;
   width: 80px;
+  display: inline-block; 
   background-color: rgb(63,94,251);
   background: radial-gradient(circle, rgba(63,94,251,1) 6%, rgba(252,70,107,1) 100%);
   border-radius: 50%;
