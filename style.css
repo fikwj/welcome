@@ -40,23 +40,57 @@ font-family: sans-serif;
 }
 
 .circle{
- height: 80px;
-  width: 80px;
-  display: inline-block; 
+  height: 40px;
+  width: 40px;
   background-color: rgb(63,94,251);
   background: radial-gradient(circle, rgba(63,94,251,1) 6%, rgba(252,70,107,1) 100%);
   border-radius: 50%;
-  
+  float: left;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
-.circle.one{
- background-color: rgb(63,94,251);
+.circleone{
+background-color: rgb(131,58,180);
+ background: radial-gradient(circle, rgba(131,58,180,1) 12%, rgba(253,29,29,1) 58%, rgba(253,82,43,1) 75%, rgba(252,176,69,1) 92%);
+ height: 40px;
+ width: 40px;
+ border-radius: 50%;
+ float: left;
+margin-right: 20px;
 }
 
-.circle.two{
-background-color: rgb(70,12,201)
+.circletwo{
+ background: radial-gradient(circle, rgba(34,193,195,1) 8%, rgba(152,190,114,1) 52%, rgba(253,187,45,1) 85%);
+ height: 40px;
+ width: 40px;
+ border-radius: 50%;
+ float: left;
+ margin-right: 20px
 }
 
-.circle.three{
-background-color: rgb(9,40,231)
+.circlethree{
+background: radial-gradient(circle, rgba(189,181,218,1) 3%, rgba(196,175,219,1) 21%, rgba(226,152,224,1) 53%, rgba(148,187,233,1) 86%);
+ height: 40px;
+ width: 40px;
+ border-radius: 50%;
+ float: left;
+  margin-right: 20px
+
 }
+.circlefour{
+  background: radial-gradient(circle, rgba(36,0,32,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 94%);
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  float: left;
+   margin-right: 20px
+}
+
+.circlefive{
+  background: radial-gradient(circle, rgba(252,233,57,1) 11%, rgba(252,176,69,1) 37%, rgba(253,82,43,1) 72%);
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 20px
