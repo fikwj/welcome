@@ -30,6 +30,12 @@ font-family: sans-serif;
   
 }
 
+a:hover{
+  color: rgb (45,222,156)
+  border-bottom: 1px dotted black;
+}
+
+
 .content{
  float: left;
   width: 65%
