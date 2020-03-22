@@ -23,7 +23,7 @@ margin-top: 30px;
 a{
 display: block;
 padding: 10px 20px;
-color:#111  
+color: rgb(214, 99, 99);
 text-decoration: none;
 text-decoration: solid; 
 font-family: sans-serif;
@@ -31,8 +31,8 @@ font-family: sans-serif;
 }
 
 a:hover{
-  color: rgb (45,222,156)
-  border-bottom: 1px dotted black;
+  color: rgb(119, 7, 7);
+  border-bottom: 5px dotted rgb(217, 241, 105);
 }
 
 
