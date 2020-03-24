@@ -37,7 +37,11 @@ text-decoration: solid;
 font-size: 17px;
 font-family: 'Rubik Mono One', sans-serif;
 text-shadow: 2px 2px rgb(0, 10, 192);
-margin-right: 10px;
+align-items: center;
+margin-right:10px;
+margin-left: 10px;
+margin-top: 5px;
+background-color: rgb(251, 157, 35, 0.70);
 
 }
 
