@@ -2,43 +2,272 @@
 <html>
 
 <head>
-<title> fikwj - print work </title>
-  <link rel="stylesheet" href="style.css"/>
- <style>
-@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
-</style>
+  <title> fikwj - Print Work </title>
+  <style>
+      @import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500,700&display=swap');
+
+      @import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One&display=swap');
+
+      @import url('https://fonts.googleapis.com/css?family=Baloo+Tammudu+2:400,600,700&display=swap');
+
+
+  body{
+    background-color: rgb(14, 15, 10,);
+    float: left;
+    position: relative;
+    left: 20%;
+    margin-top: 100px;
+    margin-left: 180px;
+    width: 85%;
+
+  }
+
+  .sidebar{
+    position: fixed;
+    width: 17%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin-left: 80px;
+    margin-top: 30px;
+    border: 10px dotted rgb(174, 232, 50);
+
+  }
+
+  a1{
+    display: block;
+    padding: 10px 20px;
+    color: rgb(220, 14, 14);
+    text-decoration: none;
+    text-decoration: solid;
+    font-size: 15px;
+    font-family: 'Rubik Mono One', sans-serif;
+    text-shadow: 2px 2px rgb(0, 10, 192);
+    align-items: center;
+    margin-right:10px;
+    margin-left: 10px;
+    margin-top: 5px;
+    background-color: rgb(251, 157, 35, 0.70);
+
+  }
+
+  a1:hover{
+    color: rgb(255, 221, 29);
+  }
+
+  .content{
+   float: left;
+   width: 80%
+
+   }
+
+  .content{
+   font-family: 'Rubik'
+  }
+
+  .circle{
+    height: 15px;
+    width: 15px;
+    background-color: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 6%, rgba(252,70,107,1) 100%);
+    border-radius: 50%;
+    display: inline-block;
+
+  }
+
+  .circleone{
+   height: 15px;
+   width: 15px;
+   border-radius: 50%;
+   display:inline-block;
+   background-color: rgb(131,58,180);
+   background: radial-gradient(circle, rgba(131,58,180,1) 12%, rgba(253,29,29,1) 58%, rgba(253,82,43,1) 75%, rgba(252,176,69,1) 92%);
+
+  }
+
+  .circletwo{
+   background: radial-gradient(circle, rgba(34,193,195,1) 8%, rgba(152,190,114,1) 52%, rgba(253,187,45,1) 85%);
+   height: 15px;
+   width: 15px;
+   border-radius: 50%;
+   display:inline-block;
+
+  }
+
+  .circlethree{
+   background: radial-gradient(circle, rgba(189,181,218,1) 3%, rgba(196,175,219,1) 21%, rgba(226,152,224,1) 53%, rgba(148,187,233,1) 86%);
+   height: 15px;
+   width: 15px;
+   border-radius: 50%;
+   display:inline-block;
+
+  }
+  .circlefour{
+    background: radial-gradient(circle, rgba(36,0,32,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 94%);
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display:inline-block;
+  }
+
+  .circlefive{
+    background: radial-gradient(circle, rgba(252,233,57,1) 11%, rgba(252,176,69,1) 37%, rgba(253,82,43,1) 72%);
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display:inline-block;
+  }
+
+
+
+  h2{
+    text-shadow: 2px 2px rgb(169, 218, 62);
+  }
+
+  h1{
+    text-shadow: 2px 2px rgb(220, 142, 191);
+
+
+  }
+
+  p{
+  font-size: 11px;
+  width: 550px;
+  line-height: 13px;
+  }
+
+  p1{
+    font-size: 25px;
+    font-style: italic;
+  }
+
+  .contentdesign{
+    width: 600px;
+    height: 650px;
+    float:left;
+    padding: 30px;
+    padding-top: 50px;
+    margin-left: 120px;
+  }
+
+
+
+
+   </style>
+
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+   <meta http-equiv="X-UA-Compatible" content="chrome=1">
+   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
 </head>
-  
+
 <body>
-  
+
   <div class="sidebar">
-    <a href="https://fikwj.github.io/welcome/"> <img src="img/cyborg.png" width="90px" border="0px"> </a>
+    <a1 href="https://fikwj.github.io/welcome/"> <img src="/Users/Fikayo/Desktop/Photos/cyborg.png" width="80px" border="0px"> </a1>
         <br>
-    <a href="aboutme.html">ABOUT ME><div class="circle"> </div> </a>
-    <a href="printwork.html">PRINT WORK><div class="circleone"> </div></a>
-    <a href="productdesign.html">PRODUCT DESIGN><div class="circletwo"> </div></a>
-    <a href="podcasts.html">PODCASTS><div class="circlethree"> </div></a>
-    <a href="">TOOLKITS (zine + eff)</a>
-    <a href="">RESEARCH><div class="circlefour"> </div></a>
-    <a href="">RADIO SHOW><div class="circlefive"> </div></a>
-    <a href="">resume</a>
-    <a href="">contact</a>
-    
+    <a1 href="aboutme.html">ABOUT ME<div class="circle"> </div> </a1>
+    <a1 href="printwork.html">PRINT WORK<div class="circleone"> </div></a1>
+    <a1 href="productdesign.html">PRODUCT DESIGN<div class="circletwo"> </div></a1>
+    <a1 href="podcasts.html">PODCASTS<div class="circlethree"> </div></a1>
+    <a1 href="">TOOLKITS (zine + eff)</a1>
+    <a1 href="">RESEARCH<div class="circlefour"> </div></a1>
+    <a1 href="">RADIO SHOW<div class="circlefive"> </div></a1>
+    <a1 href="">resume</a1>
+    <a1 href="">contact</a1>
+
   </div>
-  
-   <div class="content">
-   <h1> Blacklight magazine! </h1>
-   <p> creative director</p>
-     
-    <h2> Bring Your Own Cover </h2>
-     <img src="img/bringyourowncover.PNG" height="700px">
-   
-   
-   
-   
-  </div>
-  
-  
+
+<div class="content">
+
+      <div class = "contentdesign">
+        <h2> Bring Your Own Issue </h2>
+        <br>
+        <p> <strong> Editor's Note</strong> <p>
+        <p> As we discussed ideas for our 2019 Spring Issue, only one theme tasted right. We wanted to explore what food and consumption mean to our readers, hoping to make a space for both it’s sumptuousness and its fractures.  For women, food is often unrecognized labor and a fierce, loving celebration of everything they are. For immigrants, food is home. We could go on—food is a riotous art, a long look at your belly in the mirror, a joyous, miraculous testament to being alive. We hungered for this issue, which is a community effort in its very essence, its pages a potluck—Bring your Own (BYO). These words and pictures are yours. </p>
+        <div id="carouselExampleControls2" class="carousel slide" data-interval="false">
+                <div class="carousel-inner">
+
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="/Users/Fikayo/Desktop/Career-School Media/Design Examples/bringyourowncover.PNG" alt="Bring Your Own Cover">
+                  </div>
+
+                  <div class="carousel-item ">
+                    <img class="d-block w-100" src="/Users/Fikayo/Desktop/Career-School Media/Design Examples/bringyourowncover2.jpg" alt="Bring Your Own Cover" >
+                  </div>
+                </div>
+
+                <a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+
+<br>
+  <h1> Utopia-Healing Issue </h1>
+  <br>
+  <p> <strong> Editor's Note</strong> <p>
+  <p> For our Utopia-Healing Issue, Blacklight asked its contributors to dream up radical new languages for whole new worlds— our utopias as we imagine them; futuristic, free, tethered to our roots, sparkling stars. Artists have always turned to speculation, to science fiction, to invention, in order to reimagine what the world could look like when it has been emptied of its cruelty, of its injustice, of the systems of oppression that have been buried into its soil. Through creation, we can make a place for ourselves in the world, even if it does not yet exist. This issue is a little slice of those utopias, a journey into that deep and ancient healing, wherever it may be— a rainy afternoon, making community with our people, eating food at a wedding, full-throated revolution, in a different galaxy. WS 19  </p>
+
+  <div id="carouselExampleControls" class="carousel slide" data-interval="false">
+          <div class="carousel-inner">
+
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="/Users/Fikayo/Desktop/Career-School Media/Design Examples/Blacklight Utopia Issue Photos/Blacklight Utopia Issue 01.jpg" alt="Utopia Cover">
+            </div>
+
+            <div class="carousel-item ">
+              <img class="d-block w-100" src="/Users/Fikayo/Desktop/Career-School Media/Design Examples/Blacklight Utopia Issue Photos/Blacklight Utopia Issue 02.jpg" alt="Utopia Back Cover" >
+            </div>
+
+            <div class="carousel-item ">
+              <img class="d-block w-100" src="/Users/Fikayo/Desktop/Career-School Media/Design Examples/Blacklight Utopia Issue Photos/Blacklight Utopia Issue 03.jpg" alt="Utopia Back Cover" >
+            </div>
+
+            <div class="carousel-item ">
+              <img class="d-block w-100" src="/Users/Fikayo/Desktop/Career-School Media/Design Examples/Blacklight Utopia Issue Photos/Blacklight Utopia Issue 07.jpg" alt="Utopia Back Cover" >
+            </div>
+
+            <div class="carousel-item ">
+              <img class="d-block w-100" src="/Users/Fikayo/Desktop/Career-School Media/Design Examples/Blacklight Utopia Issue Photos/Blacklight Utopia Issue 16.jpg" alt="Utopia Back Cover" >
+            </div>
+
+            <div class="carousel-item ">
+              <img class="d-block w-100" src="/Users/Fikayo/Desktop/Career-School Media/Design Examples/Blacklight Utopia Issue Photos/Blacklight Utopia Issue 17.jpg" alt="Utopia Back Cover" >
+            </div>
+
+            <div class="carousel-item ">
+              <img class="d-block w-100" src="/Users/Fikayo/Desktop/Career-School Media/Design Examples/Blacklight Utopia Issue Photos/Blacklight Utopia Issue 18.jpg" alt="Utopia Back Cover" >
+            </div>
+
+            <div class="carousel-item ">
+              <img class="d-block w-100" src="/Users/Fikayo/Desktop/Career-School Media/Design Examples/Blacklight Utopia Issue Photos/Blacklight Utopia Issue 19.jpg" alt="Utopia Back Cover" >
+            </div>
+
+            <div class="carousel-item ">
+              <img class="d-block w-100" src="/Users/Fikayo/Desktop/Career-School Media/Design Examples/Blacklight Utopia Issue Photos/Blacklight Utopia Issue 20.jpg" alt="Utopia Back Cover" >
+            </div>
+
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+
+</div>
+
+
+
   </body>
 </html>
