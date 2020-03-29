@@ -16,7 +16,7 @@ body{
 
 }
 
-.sidebar a{
+.sidebar{
     display: block;
     padding: 10px 20px;
     color: rgb(220, 14, 14);
@@ -33,7 +33,7 @@ body{
 
   }
 
-  .sidebar a:hover{
+  a:hover{
     color: rgb(255, 221, 29);
     text-decoration: none;
     text-decoration: solid;
