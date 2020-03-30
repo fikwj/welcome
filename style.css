@@ -47,6 +47,8 @@
 .sidebar a:hover{
   color: rgb(255, 235, 59);
   background-color: rgba(65, 1, 90, 0.75);
+  text-decoration: none;
+  text-decoration: solid;
 
 }
 
