@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title> fikwj - index </title>
+  <link rel="stylesheet" href="style.css"/>
+ <style>
+
+.content{
+ float: left;
+ width: 70%
+
+ }
+
+
+h1{
+  color: rgb(255, 89, 51);
+  font-size: 45px;
+  font-family: 'Ultra'
+  letter-spacing: 2px;
+
+}
+
+p{
+  line-height: 13px;
+  font-family: 'Zilla Slab'
+
+
+}
+
+p1{
+
+  font-size: 15px;
+  font-style: italic;
+}
+
+
+
+.contentdesign{
+   width: 570px;
+   margin-left: 20px;
+   height: 400px;
+   float:left;
+   border-radius: 15px 50px 30px;
+   padding: 30px;
+   font-family: 'Ultra'
+
+
+}
+
+
+
+</style>
+
+</head>
+
+<body>
+
+  <div class="sidebar">
+
+
+    <a href=""> <img src="img/cyborg outline (1).png" width="160px"  border="0px" class = "mycyborg"/> </a> 
+       <br>
+    <a href="aboutme.html">ABOUT</a>
+    <a href="resumecv.html">RESUME-CV</a>
+    <a href="researchwriting.html">RESEARCH + WRITING</a>
+    <a href="podcasts.html">AUDIO</a>
+    <a href="">DESIGN</a>
+    <a href="">CONTACT</a>
+
+  </div>
+
+
+
+  <div class="contentdesign" style= "">
+
+    <h1>Research & Writing </h1>
+
+    <div>
+        <p1 href="https://www.aclu.org/news/free-speech/time-and-again-social-media-giants-get-content-moderation-wrong-silencing-speech-about-al-aqsa-mosque-is-just-the-latest-example/"> Time and Again, Social Media Giants Get Content Moderation Wrong: Silencing Speech about Al-Aqsa Mosque is Just the Latest Example</p1>
+        <p style= "font-size: 13px;"> Social media companies often get content moderation wrong — both because of their vague and sweeping rules,
+          and because they make mistakes when applying those rules, often through blunt automated detection systems.
+          Perfect content moderation may be impossible, but the major platforms can do better. </p>
+
+
+   </div>
+
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
