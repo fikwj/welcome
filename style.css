@@ -54,6 +54,28 @@ body{
 
 }
 
+.dropdown-content{
+  display: none;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 10px 10px;
+  color: rgb(25, 34, 62);
+  text-decoration: none;
+  text-decoration: solid;
+  font-size: 15px;
+  font-family: 'Ultra', serif;
+  align-items: center;
+  margin-right:10px;
+  margin-left: 10px;
+  margin-top:10px;
+  border-right: 5px solid ;
+}
+
+.dropdown:hover .dropdown-content{
+  display: block;
+}
 
 
 
